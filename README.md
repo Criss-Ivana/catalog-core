@@ -19,6 +19,14 @@ Inside the directory, follow the instructions in the application `README.md`.
 
 Before and while you are using this catalog, read about the [internals of Unikraft](https://unikraft.org/docs/internals).
 
+## Applications
+
+Other self-contained examples live in sibling directories at the repository root (each has its own `README.md`). This row documents the port of catalog **httpbingo**:
+
+| Directory | Description |
+|-----------|-------------|
+| [`go-httpbin/`](go-httpbin/) | ELF loader with lwIP running [go-httpbin](https://github.com/mccutchen/go-httpbin) v2.13.4 from an initrd (catalog [`library/httpbingo`](https://github.com/unikraft/catalog/tree/staging/library/httpbingo) equivalent; QEMU/Firecracker only). |
+
 ## Requirements
 
 In order to set up, configure, build and run applications on Unikraft using first principles, the following packages are required:
